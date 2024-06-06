@@ -1,0 +1,42 @@
+﻿@using gameRPG.Models
+<h3>ChickenStatsComponent</h3>
+Name: @player.Name - Level: @player.Level <br />
+Experience: @player.CurrentExperience / @player.ExperienceNeededToLevelUp <br />
+<br />
+HP: @player.CurrentHealthPoints / @player.MaxHealthPoints<br />
+Mana: @player.CurrentMana / @player.MaxMana<br />
+Stat Points: @player.StatPoints
+<br />
+Vigor: @player.Vigor @if (player.StatPoints != 0) {
+    <button @onclick='() => player.StatUp("vigor")'>+</button>
+}
+<br />
+Strength: @player.Strength @if (player.StatPoints != 0)
+{
+    <button @onclick='() => player.StatUp("strength")'>+</button>
+}
+<br />
+Intelligence: @player.Intelligence @if (player.StatPoints != 0)
+{
+    <button @onclick='() => player.StatUp("intelligence")'>+</button>
+}
+<br />
+Faith: @player.Faith @if (player.StatPoints != 0)
+{
+    <button @onclick='() => player.StatUp("faith")'>+</button>
+}
+<br />
+Resilience: @player.Resilience @if (player.StatPoints != 0)
+{
+    <button @onclick='() => player.StatUp("resilience")'>+</button>
+}
+<br />
+Haste: @player.Haste @if (player.StatPoints != 0)
+{
+    <button @onclick='() => player.StatUp("haste")'>+</button>
+}
+<br />
+
+@code {
+    ChickenPlayer player = new ChickenPlayer();
+}

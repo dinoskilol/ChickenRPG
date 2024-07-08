@@ -1,0 +1,30 @@
+﻿@using gameRPG.Models
+@using gameRPG.Services
+@using gameRPG.Components
+@inject gameRPG.Services.PlayerService PlayerService
+
+@code {
+    private double ProgressPercentage => (double)PlayerService.Player.CurrentExperience / PlayerService.Player.ExperienceNeededToLevelUp * 100;
+}
+
+    <div class="progress-bar-container">
+    <div class="progress-bar" style="width: @ProgressPercentage%;"></div>
+</div>
+<style>
+    .progress-bar-container {
+        width: 100%;
+        background-image: url('experienceBarEmpty.png');
+        overflow: hidden;
+        position: relative;
+        height: 20px;
+        background-size: 42px;
+        z-index: 55;
+    }
+
+    .progress-bar {
+        height: 20px;
+        background-image: url('experienceBarFull.png');
+        background-size: 42px;
+        z-index: 56;
+    }
+</style>

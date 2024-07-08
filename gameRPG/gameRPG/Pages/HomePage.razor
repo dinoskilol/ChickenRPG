@@ -1,6 +1,7 @@
 ﻿@using gameRPG.Logic
 @using gameRPG.Components
 @using gameRPG.Maps
+@inject gameRPG.Services.PlayerService PlayerService
 
 @layout NoLayout
 @page "/"
@@ -9,10 +10,24 @@
     <div>
         <Area1TileMap></Area1TileMap>
     </div>
-<div>
+    <div style="position: absolute; right: 34%; top: 20%;">
+    <SwordShowcaseComponent></SwordShowcaseComponent>
+</div>
+<div style="position: absolute; right: 0; width: 50%;">
     <ChickenStatsComponent></ChickenStatsComponent>
 </div>
 </div>
 @code {
 
 }
+
+<style>
+        body {
+        background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQYZREX1QD7cKXZurpyC1WIscFuRBMLXptdTA&s');
+  font-family: 'Minecraft', sans-serif;
+  background-size: 48px;
+        color: white;
+        text-shadow: 0px 0px 3px #000000;
+    }
+
+    </style

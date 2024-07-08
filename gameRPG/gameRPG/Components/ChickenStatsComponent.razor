@@ -1,42 +1,272 @@
 ﻿@using gameRPG.Models
-<h3>ChickenStatsComponent</h3>
-Name: @player.Name - Level: @player.Level <br />
-Experience: @player.CurrentExperience / @player.ExperienceNeededToLevelUp <br />
-<br />
-HP: @player.CurrentHealthPoints / @player.MaxHealthPoints<br />
-Mana: @player.CurrentMana / @player.MaxMana<br />
-Stat Points: @player.StatPoints
-<br />
-Vigor: @player.Vigor @if (player.StatPoints != 0) {
-    <button @onclick='() => player.StatUp("vigor")'>+</button>
-}
-<br />
-Strength: @player.Strength @if (player.StatPoints != 0)
-{
-    <button @onclick='() => player.StatUp("strength")'>+</button>
-}
-<br />
-Intelligence: @player.Intelligence @if (player.StatPoints != 0)
-{
-    <button @onclick='() => player.StatUp("intelligence")'>+</button>
-}
-<br />
-Faith: @player.Faith @if (player.StatPoints != 0)
-{
-    <button @onclick='() => player.StatUp("faith")'>+</button>
-}
-<br />
-Resilience: @player.Resilience @if (player.StatPoints != 0)
-{
-    <button @onclick='() => player.StatUp("resilience")'>+</button>
-}
-<br />
-Haste: @player.Haste @if (player.StatPoints != 0)
-{
-    <button @onclick='() => player.StatUp("haste")'>+</button>
-}
-<br />
+@using gameRPG.Services
+@inject gameRPG.Services.PlayerService PlayerService
+@inject gameRPG.Services.WeaponService WeaponService
 
+<ChangeNameComponent IsVisible="showPage" OnClose="HidePage"></ChangeNameComponent>
+<div class="diagonalSignParent">
+    <div class="diagonalSign"><div class="diagonalSignText"><div class="diagonalSignHPicon"></div><div>@PlayerService.Player.MaxHealthPoints</div></div></div>
+    <div class="diagonalSign"><div class="diagonalSignText"><div class="diagonalSignManaicon"></div><div>@PlayerService.Player.MaxMana</div></div></div>
+</div>
+<div class="chickenBackgroundModel">
+    <div class="chickenInfos">
+        Level @PlayerService.Player.Level - @PlayerService.Player.CurrentExperience / @PlayerService.Player.ExperienceNeededToLevelUp EXP
+        </div>
+    <div class="chickenName2">
+        <div><b>@PlayerService.Player.Name</b></div>
+    </div>
+    <div class="chickenSP">
+        <b>SP:</b> @PlayerService.Player.StatPoints
+    </div>
+    <div class="chickenWeapon" style="background-image: url('@WeaponService.EquippedWeapon.ImageUrl');"></div>
+
+    <div class="chickenModel2"></div>
+
+</div>
+<div class="editIcon" @onclick="ShowPage"></div>
+<div class="statSign">
+
+</div>
+<div class="chickenStats" style="display: flex;">
+    <table>
+        <tr>
+            <td><div class="vigorIcon"></div></td>
+
+            <td>VIG</td>
+            <td style="padding-left: 30px;">@PlayerService.Player.Vigor</td>
+            <td style="padding-left: 30px;">
+                @if (PlayerService.Player.StatPoints != 0)
+                {
+                    <span class="upStats" @onclick='() => PlayerService.Player.StatUp("vigor")'>+</span>
+                }
+                else
+                {
+                    <span class="upStats2">+</span>
+
+                }
+            </td>
+        </tr>
+        <tr>
+            <td><div class="strengthIcon"></div></td>
+
+            <td>STR</td>
+            <td style="padding-left: 30px;">@PlayerService.Player.Strength</td>
+            <td style="padding-left: 30px;">
+                @if (PlayerService.Player.StatPoints != 0)
+                {
+                    <span class="upStats" @onclick='() => PlayerService.Player.StatUp("strength")'>+</span>
+                }
+                else
+                {
+                    <span class="upStats2">+</span>
+
+                }
+            </td>
+        </tr>
+        <tr>
+            <td><div class="intIcon"></div></td>
+
+            <td>INT</td>
+            <td style="padding-left: 30px;">@PlayerService.Player.Intelligence</td>
+            <td style="padding-left: 30px;">
+                                @if (PlayerService.Player.StatPoints != 0)
+                {<span class="upStats" @onclick='() => PlayerService.Player.StatUp("intelligence")'>+</span>
+                }
+                else
+                {
+                    <span class="upStats2">+</span>
+
+                }
+            </td>
+        </tr>
+    </table>
+</div>
 @code {
-    ChickenPlayer player = new ChickenPlayer();
+    private bool showPage = false;
+
+    private void ShowPage()
+    {
+        showPage = true;
+        StateHasChanged();
+    }
+    protected override void OnInitialized()
+    {
+        WeaponService.OnChange += StateHasChanged;
+    }
+
+    public void Dispose()
+    {
+        WeaponService.OnChange -= StateHasChanged;
+    }
+    private void HidePage()
+    {
+        showPage = false;
+        StateHasChanged();
+    }
 }
+
+<style>
+
+    .upStats {
+    }
+
+    .chickenWeapon {
+        position: absolute;
+        left: 10%;
+        z-index: -2;
+        width: 120px;
+        height: 120px;
+        background-size: 120px;
+        -moz-transform: rotate(297deg);
+        -webkit-transform: rotate(297deg);
+        -o-transform: rotate(297deg);
+        -ms-transform: rotate(297deg);
+        transform: rotate(297deg);
+    }
+    .upStats:hover {
+        cursor: pointer;
+        }
+        .upStats2{
+        color: gray;
+    }
+        .upStats2:hover {
+            cursor: not-allowed;
+        }
+    .chickenBackgroundModel {
+        background-image: url('chickenBackground.png');
+        height: 300px;
+        width: 300px;
+        background-size: 300px;
+        position: absolute;
+        top: 10%;
+        margin-left: 300px;
+        margin-top: 100px;
+        z-index: -1;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .chickenModel2 {
+        background-image: url('chickenModelStats.png');
+        height: 140px;
+        width: 120px;
+        background-size: 120px;
+        margin-top: 30%;
+    }
+
+    .chickenName2 {
+        position: absolute;
+        top: 4%;
+        color: yellow;
+        display: flex;
+    }
+
+    .chickenName2:hover {
+            cursor: pointer;
+       }
+    .chickenStats {
+        position: absolute;
+        right: 25.5%;
+        margin-top: 445px;
+    }
+    .chickenInfos {
+        position: absolute;
+        top: 14%;
+    }
+
+    .vigorIcon {
+        background-image: url('hungerIcon.png');
+        width: 25px;
+        height: 25px;
+        background-size: 25px;
+        margin-right: 5px;
+    }
+
+    .strengthIcon {
+        background-image: url('strengthIcon.png');
+        width: 25px;
+        height: 25px;
+        background-size: 25px;
+    }
+
+    .intIcon {
+        background-image: url('bookIcon.png');
+        width: 25px;
+        height: 25px;
+        background-size: 24px;
+    }
+   .chickenSP {
+        position: absolute;
+        bottom: 10%;
+        right: 15%;
+    }
+
+    .editIcon {
+        width: 16px;
+        height: 16px;
+        background-size: 16px;
+        background-image: url('editIcon.png');
+        margin-left: 5px;
+        margin-top: 5px;
+        position: absolute;
+        right: 25%;
+        margin-top: 118px;
+    }
+
+        .editIcon:hover {
+            cursor: pointer;
+        }
+
+
+        .diagonalSignParent {
+            position: absolute;
+            right: 50%;
+            margin-top: 150px;
+        }
+        .diagonalSign {
+            background-image: url('diagonalSign.png');
+            height: 105px;
+            width: 100px;
+            background-size: 100px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        }
+
+        .diagonalSignText {
+        -moz-transform: rotate(30deg) skew(31deg, -6deg);
+        -webkit-transform: rotate(30deg) skew(31deg, -6deg);
+        -o-transform: rotate(30deg) skew(31deg, -6deg);
+        -ms-transform: rotate(30deg) skew(31deg, -6deg);
+        transform: rotate(30deg) skew(31deg, -6deg);
+        display: flex;
+        }
+
+        .diagonalSignHPicon {
+        background-image: url('heartIcon.png');
+        width: 25px;
+        height: 25px;
+        background-size: 25px;
+        margin-right: 10px;
+    }
+
+    .diagonalSignManaicon {
+        background-image: url('manaIcon.png');
+        width: 25px;
+        height: 25px;
+        background-size: 25px;
+        margin-right: 10px;
+    }
+
+    .statSign {
+        background-image: url('statsign.png');
+        height: 220px;
+        width: 220px;
+        background-size: 220px;
+        position: absolute;
+        right: 21.5%;
+        margin-top: 320px;
+        z-index: -2;
+    }
+</style>

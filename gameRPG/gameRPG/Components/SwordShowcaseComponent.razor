@@ -1,0 +1,61 @@
+﻿@using gameRPG.Models
+@using gameRPG.Services
+@using gameRPG.Components
+@inject gameRPG.Services.PlayerService PlayerService
+@inject gameRPG.Services.WeaponService WeaponService
+
+    <InventoryComponent IsVisible="showInventory" OnClose="HideInventory"></InventoryComponent>
+<div class="weaponContainer">
+    <div class="weapon" style="background-image: url('@WeaponService.EquippedWeapon.ImageUrl');" @onclick="ShowInventory"></div>
+</div>
+
+@code {
+    private bool showInventory = false;
+
+    private void ShowInventory()
+    {
+        showInventory = !showInventory;
+        StateHasChanged();
+    }
+
+    private void HideInventory()
+    {
+        showInventory = false;
+        StateHasChanged();
+    }
+}
+
+<style>
+    .weaponContainer {
+        background-image: url('oakWoodPlank.png');
+        width: 150px;
+        height: 150px;
+        background-size: 150px;
+        box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .weapon {
+        width: 120px;
+        height: 120px;
+        background-size: 120px;
+        -moz-transform: rotate(135deg);
+        -webkit-transform: rotate(135deg);
+        -o-transform: rotate(135deg);
+        -ms-transform: rotate(135deg);
+        transform: rotate(135deg);
+    margin-top: 95px;
+        transition: all 0.5s;
+    }
+
+    .weapon:hover {
+        cursor: pointer;
+            -moz-transform: scale(0.7) translate(0px, -47px);
+            -webkit-transform: scale(0.7) translate(0px, -47px);
+            -o-transform: scale(0.7) translate(0px, -47px);
+            -ms-transform: scale(0.7) translate(0px, -47px);
+            transform: scale(0.7) translate(0px, -47px);
+    }
+</style>

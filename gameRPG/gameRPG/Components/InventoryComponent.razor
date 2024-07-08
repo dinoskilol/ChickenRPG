@@ -1,0 +1,100 @@
+﻿@inject WeaponService WeaponService
+@using gameRPG.Models;
+@using gameRPG.Services;
+
+<div style="display: @(IsVisible ? "block" : "none");">
+
+    <div class="inventory" style="display: flex; flex-wrap: wrap; overflow: auto;">
+    @foreach (var weapon in WeaponService.Weapons)
+    {
+        if (weapon == WeaponService.EquippedWeapon)
+            {
+                <div class="inventory-slot" style="border: 5px solid white; padding: 10px; margin: 5px;" @onclick="() => EquipWeapon(weapon)">
+                    <div><img src="@weapon.ImageUrl" alt="@weapon.Name" style="width: 50px; height: 50px;" />
+                    </div>                    <span class="inventory-weaponName">@weapon.Name</span>
+
+                </div>
+            }
+            else
+            {
+                <div class="inventory-slot" style="border: 5px solid black; padding: 10px; margin: 5px;" @onclick="() => EquipWeapon(weapon)">
+                    <div>
+                        <img src="@weapon.ImageUrl" alt="@weapon.Name" style="width: 50px; height: 50px;" />
+                </div>
+
+                    <span class="inventory-weaponName">@weapon.Name</span>
+                </div>
+            }
+        }
+</div>
+
+</div>
+
+<div class="fullPageBlur3" style="display: @(IsVisible ? "block" : "none");">
+</div>
+@code {
+    [Parameter] public bool IsVisible { get; set; }
+    [Parameter] public EventCallback OnClose { get; set; }
+
+
+    private void EquipWeapon(ChickenWeapon weapon)
+    {
+        WeaponService.EquipWeapon(weapon);
+        CloseInventory();
+        TriggerRefresh();
+    }
+
+    private void CloseInventory()
+    {
+        OnClose.InvokeAsync();
+        TriggerRefresh();
+    }
+
+    private void TriggerRefresh()
+    {
+        WeaponService.NotifyStateChanged();
+    }
+}
+
+<style>
+    .fullPageBlur3 {
+        position: fixed;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        background-color: #000000A0;
+        min-width: 100%;
+        min-height: 100%;
+        z-index: 1;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -ms-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+    }
+
+    .inventory {
+        z-index: 2;
+        position: absolute;
+right: 15px;
+width: 35vw;
+height: 35vw;
+        border: 5px solid red;
+    }
+
+    .inventory-slot {
+        height: 150px;
+        width: 150px;
+        position: relative;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .inventory-weaponName {
+        position: absolute;
+        bottom: 5px;
+        font-size: 0.8em;
+        padding: 5px;
+    }
+</style>

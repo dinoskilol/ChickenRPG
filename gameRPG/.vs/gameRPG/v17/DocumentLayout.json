@@ -1,0 +1,483 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\dinoy\\Documents\\GitHub\\ChickenRPG\\gameRPG\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{1543A852-0022-4F84-A872-141DD35C5A1F}|gameRPG\\gameRPG.csproj|c:\\users\\dinoy\\documents\\github\\chickenrpg\\gamerpg\\gamerpg\\components\\inventorycomponent.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1543A852-0022-4F84-A872-141DD35C5A1F}|gameRPG\\gameRPG.csproj|solutionrelative:gamerpg\\components\\inventorycomponent.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1543A852-0022-4F84-A872-141DD35C5A1F}|gameRPG\\gameRPG.csproj|c:\\users\\dinoy\\documents\\github\\chickenrpg\\gamerpg\\gamerpg\\components\\chickenstatscomponent.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1543A852-0022-4F84-A872-141DD35C5A1F}|gameRPG\\gameRPG.csproj|solutionrelative:gamerpg\\components\\chickenstatscomponent.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1543A852-0022-4F84-A872-141DD35C5A1F}|gameRPG\\gameRPG.csproj|c:\\users\\dinoy\\documents\\github\\chickenrpg\\gamerpg\\gamerpg\\components\\experiencebarcomponent.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1543A852-0022-4F84-A872-141DD35C5A1F}|gameRPG\\gameRPG.csproj|solutionrelative:gamerpg\\components\\experiencebarcomponent.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1543A852-0022-4F84-A872-141DD35C5A1F}|gameRPG\\gameRPG.csproj|c:\\users\\dinoy\\documents\\github\\chickenrpg\\gamerpg\\gamerpg\\components\\swordshowcasecomponent.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1543A852-0022-4F84-A872-141DD35C5A1F}|gameRPG\\gameRPG.csproj|solutionrelative:gamerpg\\components\\swordshowcasecomponent.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1543A852-0022-4F84-A872-141DD35C5A1F}|gameRPG\\gameRPG.csproj|c:\\users\\dinoy\\documents\\github\\chickenrpg\\gamerpg\\gamerpg\\components\\locationcomponent.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1543A852-0022-4F84-A872-141DD35C5A1F}|gameRPG\\gameRPG.csproj|solutionrelative:gamerpg\\components\\locationcomponent.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1543A852-0022-4F84-A872-141DD35C5A1F}|gameRPG\\gameRPG.csproj|c:\\users\\dinoy\\documents\\github\\chickenrpg\\gamerpg\\gamerpg\\pages\\homepage.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1543A852-0022-4F84-A872-141DD35C5A1F}|gameRPG\\gameRPG.csproj|solutionrelative:gamerpg\\pages\\homepage.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1543A852-0022-4F84-A872-141DD35C5A1F}|gameRPG\\gameRPG.csproj|c:\\users\\dinoy\\documents\\github\\chickenrpg\\gamerpg\\gamerpg\\maps\\battlescene.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1543A852-0022-4F84-A872-141DD35C5A1F}|gameRPG\\gameRPG.csproj|solutionrelative:gamerpg\\maps\\battlescene.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1543A852-0022-4F84-A872-141DD35C5A1F}|gameRPG\\gameRPG.csproj|c:\\users\\dinoy\\documents\\github\\chickenrpg\\gamerpg\\gamerpg\\components\\changenamecomponent.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1543A852-0022-4F84-A872-141DD35C5A1F}|gameRPG\\gameRPG.csproj|solutionrelative:gamerpg\\components\\changenamecomponent.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1543A852-0022-4F84-A872-141DD35C5A1F}|gameRPG\\gameRPG.csproj|c:\\users\\dinoy\\documents\\github\\chickenrpg\\gamerpg\\gamerpg\\services\\weaponservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1543A852-0022-4F84-A872-141DD35C5A1F}|gameRPG\\gameRPG.csproj|solutionrelative:gamerpg\\services\\weaponservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1543A852-0022-4F84-A872-141DD35C5A1F}|gameRPG\\gameRPG.csproj|c:\\users\\dinoy\\documents\\github\\chickenrpg\\gamerpg\\gamerpg\\components\\tooltipcomponent.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1543A852-0022-4F84-A872-141DD35C5A1F}|gameRPG\\gameRPG.csproj|solutionrelative:gamerpg\\components\\tooltipcomponent.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1543A852-0022-4F84-A872-141DD35C5A1F}|gameRPG\\gameRPG.csproj|c:\\users\\dinoy\\documents\\github\\chickenrpg\\gamerpg\\gamerpg\\logic\\tile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1543A852-0022-4F84-A872-141DD35C5A1F}|gameRPG\\gameRPG.csproj|solutionrelative:gamerpg\\logic\\tile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1543A852-0022-4F84-A872-141DD35C5A1F}|gameRPG\\gameRPG.csproj|c:\\users\\dinoy\\documents\\github\\chickenrpg\\gamerpg\\gamerpg\\logic\\tilemaplogic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1543A852-0022-4F84-A872-141DD35C5A1F}|gameRPG\\gameRPG.csproj|solutionrelative:gamerpg\\logic\\tilemaplogic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1543A852-0022-4F84-A872-141DD35C5A1F}|gameRPG\\gameRPG.csproj|c:\\users\\dinoy\\documents\\github\\chickenrpg\\gamerpg\\gamerpg\\models\\chickenplayer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1543A852-0022-4F84-A872-141DD35C5A1F}|gameRPG\\gameRPG.csproj|solutionrelative:gamerpg\\models\\chickenplayer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1543A852-0022-4F84-A872-141DD35C5A1F}|gameRPG\\gameRPG.csproj|c:\\users\\dinoy\\documents\\github\\chickenrpg\\gamerpg\\gamerpg\\models\\chickenmove.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1543A852-0022-4F84-A872-141DD35C5A1F}|gameRPG\\gameRPG.csproj|solutionrelative:gamerpg\\models\\chickenmove.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1543A852-0022-4F84-A872-141DD35C5A1F}|gameRPG\\gameRPG.csproj|c:\\users\\dinoy\\documents\\github\\chickenrpg\\gamerpg\\gamerpg\\services\\playerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1543A852-0022-4F84-A872-141DD35C5A1F}|gameRPG\\gameRPG.csproj|solutionrelative:gamerpg\\services\\playerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1543A852-0022-4F84-A872-141DD35C5A1F}|gameRPG\\gameRPG.csproj|c:\\users\\dinoy\\documents\\github\\chickenrpg\\gamerpg\\gamerpg\\models\\chickenweapon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1543A852-0022-4F84-A872-141DD35C5A1F}|gameRPG\\gameRPG.csproj|solutionrelative:gamerpg\\models\\chickenweapon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1543A852-0022-4F84-A872-141DD35C5A1F}|gameRPG\\gameRPG.csproj|c:\\users\\dinoy\\documents\\github\\chickenrpg\\gamerpg\\gamerpg\\models\\zombiemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1543A852-0022-4F84-A872-141DD35C5A1F}|gameRPG\\gameRPG.csproj|solutionrelative:gamerpg\\models\\zombiemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1543A852-0022-4F84-A872-141DD35C5A1F}|gameRPG\\gameRPG.csproj|c:\\users\\dinoy\\documents\\github\\chickenrpg\\gamerpg\\gamerpg\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1543A852-0022-4F84-A872-141DD35C5A1F}|gameRPG\\gameRPG.csproj|solutionrelative:gamerpg\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1543A852-0022-4F84-A872-141DD35C5A1F}|gameRPG\\gameRPG.csproj|c:\\users\\dinoy\\documents\\github\\chickenrpg\\gamerpg\\gamerpg\\maps\\area1tilemap.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1543A852-0022-4F84-A872-141DD35C5A1F}|gameRPG\\gameRPG.csproj|solutionrelative:gamerpg\\maps\\area1tilemap.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1543A852-0022-4F84-A872-141DD35C5A1F}|gameRPG\\gameRPG.csproj|c:\\users\\dinoy\\documents\\github\\chickenrpg\\gamerpg\\gamerpg\\components\\tooltipcomponent.razor.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{1543A852-0022-4F84-A872-141DD35C5A1F}|gameRPG\\gameRPG.csproj|solutionrelative:gamerpg\\components\\tooltipcomponent.razor.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1543A852-0022-4F84-A872-141DD35C5A1F}|gameRPG\\gameRPG.csproj|c:\\users\\dinoy\\documents\\github\\chickenrpg\\gamerpg\\gamerpg\\models\\pigmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1543A852-0022-4F84-A872-141DD35C5A1F}|gameRPG\\gameRPG.csproj|solutionrelative:gamerpg\\models\\pigmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1543A852-0022-4F84-A872-141DD35C5A1F}|gameRPG\\gameRPG.csproj|c:\\users\\dinoy\\documents\\github\\chickenrpg\\gamerpg\\gamerpg\\app.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1543A852-0022-4F84-A872-141DD35C5A1F}|gameRPG\\gameRPG.csproj|solutionrelative:gamerpg\\app.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1543A852-0022-4F84-A872-141DD35C5A1F}|gameRPG\\gameRPG.csproj|c:\\users\\dinoy\\documents\\github\\chickenrpg\\gamerpg\\gamerpg\\wwwroot\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1543A852-0022-4F84-A872-141DD35C5A1F}|gameRPG\\gameRPG.csproj|solutionrelative:gamerpg\\wwwroot\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1543A852-0022-4F84-A872-141DD35C5A1F}|gameRPG\\gameRPG.csproj|c:\\users\\dinoy\\documents\\github\\chickenrpg\\gamerpg\\gamerpg\\wwwroot\\css\\app.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{1543A852-0022-4F84-A872-141DD35C5A1F}|gameRPG\\gameRPG.csproj|solutionrelative:gamerpg\\wwwroot\\css\\app.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1543A852-0022-4F84-A872-141DD35C5A1F}|gameRPG\\gameRPG.csproj|c:\\users\\dinoy\\documents\\github\\chickenrpg\\gamerpg\\gamerpg\\layout\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1543A852-0022-4F84-A872-141DD35C5A1F}|gameRPG\\gameRPG.csproj|solutionrelative:gamerpg\\layout\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1543A852-0022-4F84-A872-141DD35C5A1F}|gameRPG\\gameRPG.csproj|c:\\users\\dinoy\\documents\\github\\chickenrpg\\gamerpg\\gamerpg\\layout\\nolayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1543A852-0022-4F84-A872-141DD35C5A1F}|gameRPG\\gameRPG.csproj|solutionrelative:gamerpg\\layout\\nolayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1543A852-0022-4F84-A872-141DD35C5A1F}|gameRPG\\gameRPG.csproj|c:\\users\\dinoy\\documents\\github\\chickenrpg\\gamerpg\\gamerpg\\wwwroot\\js\\keyboard.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{1543A852-0022-4F84-A872-141DD35C5A1F}|gameRPG\\gameRPG.csproj|solutionrelative:gamerpg\\wwwroot\\js\\keyboard.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 11,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{13b12e3e-c1b4-4539-9371-4fe9a0d523fc}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{13b12e3e-c1b4-4539-9371-4fe9a0d523fc}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "SwordShowcaseComponent.razor",
+              "DocumentMoniker": "C:\\Users\\dinoy\\Documents\\GitHub\\ChickenRPG\\gameRPG\\gameRPG\\Components\\SwordShowcaseComponent.razor",
+              "RelativeDocumentMoniker": "gameRPG\\Components\\SwordShowcaseComponent.razor",
+              "ToolTip": "C:\\Users\\dinoy\\Documents\\GitHub\\ChickenRPG\\gameRPG\\gameRPG\\Components\\SwordShowcaseComponent.razor",
+              "RelativeToolTip": "gameRPG\\Components\\SwordShowcaseComponent.razor",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-03T08:52:47.983Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "LocationComponent.razor",
+              "DocumentMoniker": "C:\\Users\\dinoy\\Documents\\GitHub\\ChickenRPG\\gameRPG\\gameRPG\\Components\\LocationComponent.razor",
+              "RelativeDocumentMoniker": "gameRPG\\Components\\LocationComponent.razor",
+              "ToolTip": "C:\\Users\\dinoy\\Documents\\GitHub\\ChickenRPG\\gameRPG\\gameRPG\\Components\\LocationComponent.razor",
+              "RelativeToolTip": "gameRPG\\Components\\LocationComponent.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-24T10:25:18.602Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ExperienceBarComponent.razor",
+              "DocumentMoniker": "C:\\Users\\dinoy\\Documents\\GitHub\\ChickenRPG\\gameRPG\\gameRPG\\Components\\ExperienceBarComponent.razor",
+              "RelativeDocumentMoniker": "gameRPG\\Components\\ExperienceBarComponent.razor",
+              "ToolTip": "C:\\Users\\dinoy\\Documents\\GitHub\\ChickenRPG\\gameRPG\\gameRPG\\Components\\ExperienceBarComponent.razor",
+              "RelativeToolTip": "gameRPG\\Components\\ExperienceBarComponent.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-01T07:20:54.841Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ChickenStatsComponent.razor",
+              "DocumentMoniker": "C:\\Users\\dinoy\\Documents\\GitHub\\ChickenRPG\\gameRPG\\gameRPG\\Components\\ChickenStatsComponent.razor",
+              "RelativeDocumentMoniker": "gameRPG\\Components\\ChickenStatsComponent.razor",
+              "ToolTip": "C:\\Users\\dinoy\\Documents\\GitHub\\ChickenRPG\\gameRPG\\gameRPG\\Components\\ChickenStatsComponent.razor",
+              "RelativeToolTip": "gameRPG\\Components\\ChickenStatsComponent.razor",
+              "ViewState": "AQIAAHgAAAAAAAAAAAAAAJAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-24T10:25:18.59Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "InventoryComponent.razor",
+              "DocumentMoniker": "C:\\Users\\dinoy\\Documents\\GitHub\\ChickenRPG\\gameRPG\\gameRPG\\Components\\InventoryComponent.razor",
+              "RelativeDocumentMoniker": "gameRPG\\Components\\InventoryComponent.razor",
+              "ToolTip": "C:\\Users\\dinoy\\Documents\\GitHub\\ChickenRPG\\gameRPG\\gameRPG\\Components\\InventoryComponent.razor",
+              "RelativeToolTip": "gameRPG\\Components\\InventoryComponent.razor",
+              "ViewState": "AQIAADwAAAAAAAAAAAAAAF8AAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-03T11:41:21.064Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "HomePage.razor",
+              "DocumentMoniker": "C:\\Users\\dinoy\\Documents\\GitHub\\ChickenRPG\\gameRPG\\gameRPG\\Pages\\HomePage.razor",
+              "RelativeDocumentMoniker": "gameRPG\\Pages\\HomePage.razor",
+              "ToolTip": "C:\\Users\\dinoy\\Documents\\GitHub\\ChickenRPG\\gameRPG\\gameRPG\\Pages\\HomePage.razor",
+              "RelativeToolTip": "gameRPG\\Pages\\HomePage.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAzAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-24T10:25:18.539Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ChangeNameComponent.razor",
+              "DocumentMoniker": "C:\\Users\\dinoy\\Documents\\GitHub\\ChickenRPG\\gameRPG\\gameRPG\\Components\\ChangeNameComponent.razor",
+              "RelativeDocumentMoniker": "gameRPG\\Components\\ChangeNameComponent.razor",
+              "ToolTip": "C:\\Users\\dinoy\\Documents\\GitHub\\ChickenRPG\\gameRPG\\gameRPG\\Components\\ChangeNameComponent.razor",
+              "RelativeToolTip": "gameRPG\\Components\\ChangeNameComponent.razor",
+              "ViewState": "AQIAADwAAAAAAAAAAAAAAFQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-02T09:57:23.7Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "BattleScene.razor",
+              "DocumentMoniker": "C:\\Users\\dinoy\\Documents\\GitHub\\ChickenRPG\\gameRPG\\gameRPG\\Maps\\BattleScene.razor",
+              "RelativeDocumentMoniker": "gameRPG\\Maps\\BattleScene.razor",
+              "ToolTip": "C:\\Users\\dinoy\\Documents\\GitHub\\ChickenRPG\\gameRPG\\gameRPG\\Maps\\BattleScene.razor",
+              "RelativeToolTip": "gameRPG\\Maps\\BattleScene.razor",
+              "ViewState": "AQIAAD8AAAAAAAAAAAAAAE0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-25T09:04:54.02Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "WeaponService.cs",
+              "DocumentMoniker": "C:\\Users\\dinoy\\Documents\\GitHub\\ChickenRPG\\gameRPG\\gameRPG\\Services\\WeaponService.cs",
+              "RelativeDocumentMoniker": "gameRPG\\Services\\WeaponService.cs",
+              "ToolTip": "C:\\Users\\dinoy\\Documents\\GitHub\\ChickenRPG\\gameRPG\\gameRPG\\Services\\WeaponService.cs",
+              "RelativeToolTip": "gameRPG\\Services\\WeaponService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-03T11:48:16.477Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "TooltipComponent.razor",
+              "DocumentMoniker": "C:\\Users\\dinoy\\Documents\\GitHub\\ChickenRPG\\gameRPG\\gameRPG\\Components\\TooltipComponent.razor",
+              "RelativeDocumentMoniker": "gameRPG\\Components\\TooltipComponent.razor",
+              "ToolTip": "C:\\Users\\dinoy\\Documents\\GitHub\\ChickenRPG\\gameRPG\\gameRPG\\Components\\TooltipComponent.razor",
+              "RelativeToolTip": "gameRPG\\Components\\TooltipComponent.razor",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAABkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-28T08:55:56.049Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Tile.cs",
+              "DocumentMoniker": "C:\\Users\\dinoy\\Documents\\GitHub\\ChickenRPG\\gameRPG\\gameRPG\\Logic\\Tile.cs",
+              "RelativeDocumentMoniker": "gameRPG\\Logic\\Tile.cs",
+              "ToolTip": "C:\\Users\\dinoy\\Documents\\GitHub\\ChickenRPG\\gameRPG\\gameRPG\\Logic\\Tile.cs",
+              "RelativeToolTip": "gameRPG\\Logic\\Tile.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwA4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-24T10:25:18.607Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "TileMapLogic.cs",
+              "DocumentMoniker": "C:\\Users\\dinoy\\Documents\\GitHub\\ChickenRPG\\gameRPG\\gameRPG\\Logic\\TileMapLogic.cs",
+              "RelativeDocumentMoniker": "gameRPG\\Logic\\TileMapLogic.cs",
+              "ToolTip": "C:\\Users\\dinoy\\Documents\\GitHub\\ChickenRPG\\gameRPG\\gameRPG\\Logic\\TileMapLogic.cs",
+              "RelativeToolTip": "gameRPG\\Logic\\TileMapLogic.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAEQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-24T10:25:18.662Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "ChickenPlayer.cs",
+              "DocumentMoniker": "C:\\Users\\dinoy\\Documents\\GitHub\\ChickenRPG\\gameRPG\\gameRPG\\Models\\ChickenPlayer.cs",
+              "RelativeDocumentMoniker": "gameRPG\\Models\\ChickenPlayer.cs",
+              "ToolTip": "C:\\Users\\dinoy\\Documents\\GitHub\\ChickenRPG\\gameRPG\\gameRPG\\Models\\ChickenPlayer.cs",
+              "RelativeToolTip": "gameRPG\\Models\\ChickenPlayer.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAYwBgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-24T10:25:18.598Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "ChickenMove.cs",
+              "DocumentMoniker": "C:\\Users\\dinoy\\Documents\\GitHub\\ChickenRPG\\gameRPG\\gameRPG\\Models\\ChickenMove.cs",
+              "RelativeDocumentMoniker": "gameRPG\\Models\\ChickenMove.cs",
+              "ToolTip": "C:\\Users\\dinoy\\Documents\\GitHub\\ChickenRPG\\gameRPG\\gameRPG\\Models\\ChickenMove.cs",
+              "RelativeToolTip": "gameRPG\\Models\\ChickenMove.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-24T10:25:18.594Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "PlayerService.cs",
+              "DocumentMoniker": "C:\\Users\\dinoy\\Documents\\GitHub\\ChickenRPG\\gameRPG\\gameRPG\\Services\\PlayerService.cs",
+              "RelativeDocumentMoniker": "gameRPG\\Services\\PlayerService.cs",
+              "ToolTip": "C:\\Users\\dinoy\\Documents\\GitHub\\ChickenRPG\\gameRPG\\gameRPG\\Services\\PlayerService.cs",
+              "RelativeToolTip": "gameRPG\\Services\\PlayerService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-03T11:45:30.704Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "ChickenWeapon.cs",
+              "DocumentMoniker": "C:\\Users\\dinoy\\Documents\\GitHub\\ChickenRPG\\gameRPG\\gameRPG\\Models\\ChickenWeapon.cs",
+              "RelativeDocumentMoniker": "gameRPG\\Models\\ChickenWeapon.cs",
+              "ToolTip": "C:\\Users\\dinoy\\Documents\\GitHub\\ChickenRPG\\gameRPG\\gameRPG\\Models\\ChickenWeapon.cs",
+              "RelativeToolTip": "gameRPG\\Models\\ChickenWeapon.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-03T11:36:20.751Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "ZombieModel.cs",
+              "DocumentMoniker": "C:\\Users\\dinoy\\Documents\\GitHub\\ChickenRPG\\gameRPG\\gameRPG\\Models\\ZombieModel.cs",
+              "RelativeDocumentMoniker": "gameRPG\\Models\\ZombieModel.cs",
+              "ToolTip": "C:\\Users\\dinoy\\Documents\\GitHub\\ChickenRPG\\gameRPG\\gameRPG\\Models\\ZombieModel.cs",
+              "RelativeToolTip": "gameRPG\\Models\\ZombieModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-25T10:36:08.375Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\dinoy\\Documents\\GitHub\\ChickenRPG\\gameRPG\\gameRPG\\Program.cs",
+              "RelativeDocumentMoniker": "gameRPG\\Program.cs",
+              "ToolTip": "C:\\Users\\dinoy\\Documents\\GitHub\\ChickenRPG\\gameRPG\\gameRPG\\Program.cs",
+              "RelativeToolTip": "gameRPG\\Program.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-28T08:35:54.729Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Area1TileMap.razor",
+              "DocumentMoniker": "C:\\Users\\dinoy\\Documents\\GitHub\\ChickenRPG\\gameRPG\\gameRPG\\Maps\\Area1TileMap.razor",
+              "RelativeDocumentMoniker": "gameRPG\\Maps\\Area1TileMap.razor",
+              "ToolTip": "C:\\Users\\dinoy\\Documents\\GitHub\\ChickenRPG\\gameRPG\\gameRPG\\Maps\\Area1TileMap.razor",
+              "RelativeToolTip": "gameRPG\\Maps\\Area1TileMap.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAE8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-24T10:25:18.583Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "TooltipComponent.razor.css",
+              "DocumentMoniker": "C:\\Users\\dinoy\\Documents\\GitHub\\ChickenRPG\\gameRPG\\gameRPG\\Components\\TooltipComponent.razor.css",
+              "RelativeDocumentMoniker": "gameRPG\\Components\\TooltipComponent.razor.css",
+              "ToolTip": "C:\\Users\\dinoy\\Documents\\GitHub\\ChickenRPG\\gameRPG\\gameRPG\\Components\\TooltipComponent.razor.css",
+              "RelativeToolTip": "gameRPG\\Components\\TooltipComponent.razor.css",
+              "ViewState": "AQIAAAMAAAAAAAAAAADwvyEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-06-28T08:57:45.248Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "App.razor",
+              "DocumentMoniker": "C:\\Users\\dinoy\\Documents\\GitHub\\ChickenRPG\\gameRPG\\gameRPG\\App.razor",
+              "RelativeDocumentMoniker": "gameRPG\\App.razor",
+              "ToolTip": "C:\\Users\\dinoy\\Documents\\GitHub\\ChickenRPG\\gameRPG\\gameRPG\\App.razor",
+              "RelativeToolTip": "gameRPG\\App.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-28T08:50:51.027Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "PigModel.cs",
+              "DocumentMoniker": "C:\\Users\\dinoy\\Documents\\GitHub\\ChickenRPG\\gameRPG\\gameRPG\\Models\\PigModel.cs",
+              "RelativeDocumentMoniker": "gameRPG\\Models\\PigModel.cs",
+              "ToolTip": "C:\\Users\\dinoy\\Documents\\GitHub\\ChickenRPG\\gameRPG\\gameRPG\\Models\\PigModel.cs",
+              "RelativeToolTip": "gameRPG\\Models\\PigModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAwAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-25T10:41:00.215Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "app.css",
+              "DocumentMoniker": "C:\\Users\\dinoy\\Documents\\GitHub\\ChickenRPG\\gameRPG\\gameRPG\\wwwroot\\css\\app.css",
+              "RelativeDocumentMoniker": "gameRPG\\wwwroot\\css\\app.css",
+              "ToolTip": "C:\\Users\\dinoy\\Documents\\GitHub\\ChickenRPG\\gameRPG\\gameRPG\\wwwroot\\css\\app.css",
+              "RelativeToolTip": "gameRPG\\wwwroot\\css\\app.css",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-06-25T09:09:40.555Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "index.html",
+              "DocumentMoniker": "C:\\Users\\dinoy\\Documents\\GitHub\\ChickenRPG\\gameRPG\\gameRPG\\wwwroot\\index.html",
+              "RelativeDocumentMoniker": "gameRPG\\wwwroot\\index.html",
+              "ToolTip": "C:\\Users\\dinoy\\Documents\\GitHub\\ChickenRPG\\gameRPG\\gameRPG\\wwwroot\\index.html",
+              "RelativeToolTip": "gameRPG\\wwwroot\\index.html",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAABNAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2024-06-24T10:25:18.683Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "MainLayout.razor",
+              "DocumentMoniker": "C:\\Users\\dinoy\\Documents\\GitHub\\ChickenRPG\\gameRPG\\gameRPG\\Layout\\MainLayout.razor",
+              "RelativeDocumentMoniker": "gameRPG\\Layout\\MainLayout.razor",
+              "ToolTip": "C:\\Users\\dinoy\\Documents\\GitHub\\ChickenRPG\\gameRPG\\gameRPG\\Layout\\MainLayout.razor",
+              "RelativeToolTip": "gameRPG\\Layout\\MainLayout.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-24T10:25:18.669Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "NoLayout.razor",
+              "DocumentMoniker": "C:\\Users\\dinoy\\Documents\\GitHub\\ChickenRPG\\gameRPG\\gameRPG\\Layout\\NoLayout.razor",
+              "RelativeDocumentMoniker": "gameRPG\\Layout\\NoLayout.razor",
+              "ToolTip": "C:\\Users\\dinoy\\Documents\\GitHub\\ChickenRPG\\gameRPG\\gameRPG\\Layout\\NoLayout.razor",
+              "RelativeToolTip": "gameRPG\\Layout\\NoLayout.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-24T10:25:18.677Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "keyboard.js",
+              "DocumentMoniker": "C:\\Users\\dinoy\\Documents\\GitHub\\ChickenRPG\\gameRPG\\gameRPG\\wwwroot\\js\\keyboard.js",
+              "RelativeDocumentMoniker": "gameRPG\\wwwroot\\js\\keyboard.js",
+              "ToolTip": "C:\\Users\\dinoy\\Documents\\GitHub\\ChickenRPG\\gameRPG\\gameRPG\\wwwroot\\js\\keyboard.js",
+              "RelativeToolTip": "gameRPG\\wwwroot\\js\\keyboard.js",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAACMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-06-24T10:25:18.687Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

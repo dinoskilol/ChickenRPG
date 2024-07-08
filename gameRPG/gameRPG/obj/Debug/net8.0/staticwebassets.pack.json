@@ -1,64 +1,204 @@
 {
   "Files": [
     {
-      "Id": "D:\\Development\\gameRPG\\gameRPG\\bin\\Debug\\net8.0\\wwwroot\\_framework\\blazor.webassembly.js",
+      "Id": "C:\\Users\\dinoy\\Documents\\GitHub\\ChickenRPG\\gameRPG\\gameRPG\\bin\\Debug\\net8.0\\wwwroot\\_framework\\blazor.webassembly.js",
       "PackagePath": "staticwebassets\\_framework\\blazor.webassembly.js"
     },
     {
-      "Id": "D:\\Development\\gameRPG\\gameRPG\\obj\\Debug\\net8.0\\compressed\\wdack7l1qx.gz",
+      "Id": "C:\\Users\\dinoy\\Documents\\GitHub\\ChickenRPG\\gameRPG\\gameRPG\\obj\\Debug\\net8.0\\compressed\\prrxnfd5ue.gz",
       "PackagePath": "staticwebassets\\_framework\\blazor.webassembly.js.gz"
     },
     {
-      "Id": "D:\\Development\\gameRPG\\gameRPG\\obj\\Debug\\net8.0\\scopedcss\\bundle\\gameRPG.styles.css",
+      "Id": "C:\\Users\\dinoy\\Documents\\GitHub\\ChickenRPG\\gameRPG\\gameRPG\\obj\\Debug\\net8.0\\scopedcss\\bundle\\gameRPG.styles.css",
       "PackagePath": "staticwebassets\\gameRPG.styles.css"
     },
     {
-      "Id": "D:\\Development\\gameRPG\\gameRPG\\obj\\Debug\\net8.0\\service-worker-assets.js",
+      "Id": "C:\\Users\\dinoy\\Documents\\GitHub\\ChickenRPG\\gameRPG\\gameRPG\\obj\\Debug\\net8.0\\service-worker-assets.js",
       "PackagePath": "staticwebassets\\service-worker-assets.js"
     },
     {
-      "Id": "D:\\Development\\gameRPG\\gameRPG\\obj\\Debug\\net8.0\\service-worker\\service-worker.published.js",
+      "Id": "C:\\Users\\dinoy\\Documents\\GitHub\\ChickenRPG\\gameRPG\\gameRPG\\obj\\Debug\\net8.0\\service-worker\\service-worker.published.js",
       "PackagePath": "staticwebassets\\service-worker.js"
     },
     {
-      "Id": "D:\\Development\\gameRPG\\gameRPG\\wwwroot\\css\\app.css",
+      "Id": "C:\\Users\\dinoy\\Documents\\GitHub\\ChickenRPG\\gameRPG\\gameRPG\\wwwroot\\AttackMenuButton.png",
+      "PackagePath": "staticwebassets\\AttackMenuButton.png"
+    },
+    {
+      "Id": "C:\\Users\\dinoy\\Documents\\GitHub\\ChickenRPG\\gameRPG\\gameRPG\\wwwroot\\AttackMenuButtonHover.png",
+      "PackagePath": "staticwebassets\\AttackMenuButtonHover.png"
+    },
+    {
+      "Id": "C:\\Users\\dinoy\\Documents\\GitHub\\ChickenRPG\\gameRPG\\gameRPG\\wwwroot\\ChangeNamePage.png",
+      "PackagePath": "staticwebassets\\ChangeNamePage.png"
+    },
+    {
+      "Id": "C:\\Users\\dinoy\\Documents\\GitHub\\ChickenRPG\\gameRPG\\gameRPG\\wwwroot\\ChangeWeaponMenuButton.png",
+      "PackagePath": "staticwebassets\\ChangeWeaponMenuButton.png"
+    },
+    {
+      "Id": "C:\\Users\\dinoy\\Documents\\GitHub\\ChickenRPG\\gameRPG\\gameRPG\\wwwroot\\ChangeWeaponMenuButtonHover.png",
+      "PackagePath": "staticwebassets\\ChangeWeaponMenuButtonHover.png"
+    },
+    {
+      "Id": "C:\\Users\\dinoy\\Documents\\GitHub\\ChickenRPG\\gameRPG\\gameRPG\\wwwroot\\ChickenModel.png",
+      "PackagePath": "staticwebassets\\ChickenModel.png"
+    },
+    {
+      "Id": "C:\\Users\\dinoy\\Documents\\GitHub\\ChickenRPG\\gameRPG\\gameRPG\\wwwroot\\DiagonalSign.png",
+      "PackagePath": "staticwebassets\\DiagonalSign.png"
+    },
+    {
+      "Id": "C:\\Users\\dinoy\\Documents\\GitHub\\ChickenRPG\\gameRPG\\gameRPG\\wwwroot\\ForestArea.png",
+      "PackagePath": "staticwebassets\\ForestArea.png"
+    },
+    {
+      "Id": "C:\\Users\\dinoy\\Documents\\GitHub\\ChickenRPG\\gameRPG\\gameRPG\\wwwroot\\OakWoodPlank.png",
+      "PackagePath": "staticwebassets\\OakWoodPlank.png"
+    },
+    {
+      "Id": "C:\\Users\\dinoy\\Documents\\GitHub\\ChickenRPG\\gameRPG\\gameRPG\\wwwroot\\RunSign.png",
+      "PackagePath": "staticwebassets\\RunSign.png"
+    },
+    {
+      "Id": "C:\\Users\\dinoy\\Documents\\GitHub\\ChickenRPG\\gameRPG\\gameRPG\\wwwroot\\Sign.png",
+      "PackagePath": "staticwebassets\\Sign.png"
+    },
+    {
+      "Id": "C:\\Users\\dinoy\\Documents\\GitHub\\ChickenRPG\\gameRPG\\gameRPG\\wwwroot\\SignHolder.png",
+      "PackagePath": "staticwebassets\\SignHolder.png"
+    },
+    {
+      "Id": "C:\\Users\\dinoy\\Documents\\GitHub\\ChickenRPG\\gameRPG\\gameRPG\\wwwroot\\SpecialMenuButton.png",
+      "PackagePath": "staticwebassets\\SpecialMenuButton.png"
+    },
+    {
+      "Id": "C:\\Users\\dinoy\\Documents\\GitHub\\ChickenRPG\\gameRPG\\gameRPG\\wwwroot\\SpecialMenuButtonHover.png",
+      "PackagePath": "staticwebassets\\SpecialMenuButtonHover.png"
+    },
+    {
+      "Id": "C:\\Users\\dinoy\\Documents\\GitHub\\ChickenRPG\\gameRPG\\gameRPG\\wwwroot\\StatSign.png",
+      "PackagePath": "staticwebassets\\StatSign.png"
+    },
+    {
+      "Id": "C:\\Users\\dinoy\\Documents\\GitHub\\ChickenRPG\\gameRPG\\gameRPG\\wwwroot\\backgroundForest.png",
+      "PackagePath": "staticwebassets\\backgroundForest.png"
+    },
+    {
+      "Id": "C:\\Users\\dinoy\\Documents\\GitHub\\ChickenRPG\\gameRPG\\gameRPG\\wwwroot\\backgroundSpruce.png",
+      "PackagePath": "staticwebassets\\backgroundSpruce.png"
+    },
+    {
+      "Id": "C:\\Users\\dinoy\\Documents\\GitHub\\ChickenRPG\\gameRPG\\gameRPG\\wwwroot\\bookIcon.png",
+      "PackagePath": "staticwebassets\\bookIcon.png"
+    },
+    {
+      "Id": "C:\\Users\\dinoy\\Documents\\GitHub\\ChickenRPG\\gameRPG\\gameRPG\\wwwroot\\chickenBackground.png",
+      "PackagePath": "staticwebassets\\chickenBackground.png"
+    },
+    {
+      "Id": "C:\\Users\\dinoy\\Documents\\GitHub\\ChickenRPG\\gameRPG\\gameRPG\\wwwroot\\chickenDownModel.png",
+      "PackagePath": "staticwebassets\\chickenDownModel.png"
+    },
+    {
+      "Id": "C:\\Users\\dinoy\\Documents\\GitHub\\ChickenRPG\\gameRPG\\gameRPG\\wwwroot\\chickenLeftModel.png",
+      "PackagePath": "staticwebassets\\chickenLeftModel.png"
+    },
+    {
+      "Id": "C:\\Users\\dinoy\\Documents\\GitHub\\ChickenRPG\\gameRPG\\gameRPG\\wwwroot\\chickenModelStats.png",
+      "PackagePath": "staticwebassets\\chickenModelStats.png"
+    },
+    {
+      "Id": "C:\\Users\\dinoy\\Documents\\GitHub\\ChickenRPG\\gameRPG\\gameRPG\\wwwroot\\chickenRightModel.png",
+      "PackagePath": "staticwebassets\\chickenRightModel.png"
+    },
+    {
+      "Id": "C:\\Users\\dinoy\\Documents\\GitHub\\ChickenRPG\\gameRPG\\gameRPG\\wwwroot\\chickenUpModel.png",
+      "PackagePath": "staticwebassets\\chickenUpModel.png"
+    },
+    {
+      "Id": "C:\\Users\\dinoy\\Documents\\GitHub\\ChickenRPG\\gameRPG\\gameRPG\\wwwroot\\css\\app.css",
       "PackagePath": "staticwebassets\\css\\app.css"
     },
     {
-      "Id": "D:\\Development\\gameRPG\\gameRPG\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
+      "Id": "C:\\Users\\dinoy\\Documents\\GitHub\\ChickenRPG\\gameRPG\\gameRPG\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
       "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap.min.css"
     },
     {
-      "Id": "D:\\Development\\gameRPG\\gameRPG\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
+      "Id": "C:\\Users\\dinoy\\Documents\\GitHub\\ChickenRPG\\gameRPG\\gameRPG\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
       "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap.min.css.map"
     },
     {
-      "Id": "D:\\Development\\gameRPG\\gameRPG\\wwwroot\\favicon.png",
+      "Id": "C:\\Users\\dinoy\\Documents\\GitHub\\ChickenRPG\\gameRPG\\gameRPG\\wwwroot\\diamondSword.png",
+      "PackagePath": "staticwebassets\\diamondSword.png"
+    },
+    {
+      "Id": "C:\\Users\\dinoy\\Documents\\GitHub\\ChickenRPG\\gameRPG\\gameRPG\\wwwroot\\editIcon.png",
+      "PackagePath": "staticwebassets\\editIcon.png"
+    },
+    {
+      "Id": "C:\\Users\\dinoy\\Documents\\GitHub\\ChickenRPG\\gameRPG\\gameRPG\\wwwroot\\enchantedSword.gif",
+      "PackagePath": "staticwebassets\\enchantedSword.gif"
+    },
+    {
+      "Id": "C:\\Users\\dinoy\\Documents\\GitHub\\ChickenRPG\\gameRPG\\gameRPG\\wwwroot\\experienceBarEmpty.png",
+      "PackagePath": "staticwebassets\\experienceBarEmpty.png"
+    },
+    {
+      "Id": "C:\\Users\\dinoy\\Documents\\GitHub\\ChickenRPG\\gameRPG\\gameRPG\\wwwroot\\experienceBarFull.png",
+      "PackagePath": "staticwebassets\\experienceBarFull.png"
+    },
+    {
+      "Id": "C:\\Users\\dinoy\\Documents\\GitHub\\ChickenRPG\\gameRPG\\gameRPG\\wwwroot\\favicon.png",
       "PackagePath": "staticwebassets\\favicon.png"
     },
     {
-      "Id": "D:\\Development\\gameRPG\\gameRPG\\wwwroot\\icon-192.png",
+      "Id": "C:\\Users\\dinoy\\Documents\\GitHub\\ChickenRPG\\gameRPG\\gameRPG\\wwwroot\\heartIcon.png",
+      "PackagePath": "staticwebassets\\heartIcon.png"
+    },
+    {
+      "Id": "C:\\Users\\dinoy\\Documents\\GitHub\\ChickenRPG\\gameRPG\\gameRPG\\wwwroot\\hungerIcon.png",
+      "PackagePath": "staticwebassets\\hungerIcon.png"
+    },
+    {
+      "Id": "C:\\Users\\dinoy\\Documents\\GitHub\\ChickenRPG\\gameRPG\\gameRPG\\wwwroot\\icon-192.png",
       "PackagePath": "staticwebassets\\icon-192.png"
     },
     {
-      "Id": "D:\\Development\\gameRPG\\gameRPG\\wwwroot\\icon-512.png",
+      "Id": "C:\\Users\\dinoy\\Documents\\GitHub\\ChickenRPG\\gameRPG\\gameRPG\\wwwroot\\icon-512.png",
       "PackagePath": "staticwebassets\\icon-512.png"
     },
     {
-      "Id": "D:\\Development\\gameRPG\\gameRPG\\wwwroot\\index.html",
+      "Id": "C:\\Users\\dinoy\\Documents\\GitHub\\ChickenRPG\\gameRPG\\gameRPG\\wwwroot\\index.html",
       "PackagePath": "staticwebassets\\index.html"
     },
     {
-      "Id": "D:\\Development\\gameRPG\\gameRPG\\wwwroot\\js\\keyboard.js",
+      "Id": "C:\\Users\\dinoy\\Documents\\GitHub\\ChickenRPG\\gameRPG\\gameRPG\\wwwroot\\js\\keyboard.js",
       "PackagePath": "staticwebassets\\js\\keyboard.js"
     },
     {
-      "Id": "D:\\Development\\gameRPG\\gameRPG\\wwwroot\\manifest.webmanifest",
+      "Id": "C:\\Users\\dinoy\\Documents\\GitHub\\ChickenRPG\\gameRPG\\gameRPG\\wwwroot\\manaIcon.png",
+      "PackagePath": "staticwebassets\\manaIcon.png"
+    },
+    {
+      "Id": "C:\\Users\\dinoy\\Documents\\GitHub\\ChickenRPG\\gameRPG\\gameRPG\\wwwroot\\manifest.webmanifest",
       "PackagePath": "staticwebassets\\manifest.webmanifest"
     },
     {
-      "Id": "D:\\Development\\gameRPG\\gameRPG\\wwwroot\\sample-data\\weather.json",
+      "Id": "C:\\Users\\dinoy\\Documents\\GitHub\\ChickenRPG\\gameRPG\\gameRPG\\wwwroot\\mapBackground.png",
+      "PackagePath": "staticwebassets\\mapBackground.png"
+    },
+    {
+      "Id": "C:\\Users\\dinoy\\Documents\\GitHub\\ChickenRPG\\gameRPG\\gameRPG\\wwwroot\\sample-data\\weather.json",
       "PackagePath": "staticwebassets\\sample-data\\weather.json"
+    },
+    {
+      "Id": "C:\\Users\\dinoy\\Documents\\GitHub\\ChickenRPG\\gameRPG\\gameRPG\\wwwroot\\strengthIcon.png",
+      "PackagePath": "staticwebassets\\strengthIcon.png"
+    },
+    {
+      "Id": "C:\\Users\\dinoy\\Documents\\GitHub\\ChickenRPG\\gameRPG\\gameRPG\\wwwroot\\woodenSword.png",
+      "PackagePath": "staticwebassets\\woodenSword.png"
     },
     {
       "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.gameRPG.props",

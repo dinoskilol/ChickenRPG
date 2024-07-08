@@ -1,27 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Development\\gameRPG\\gameRPG\\gameRPG.csproj": {}
+    "C:\\Users\\dinoy\\Documents\\GitHub\\ChickenRPG\\gameRPG\\gameRPG\\gameRPG.csproj": {}
   },
   "projects": {
-    "D:\\Development\\gameRPG\\gameRPG\\gameRPG.csproj": {
+    "C:\\Users\\dinoy\\Documents\\GitHub\\ChickenRPG\\gameRPG\\gameRPG\\gameRPG.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Development\\gameRPG\\gameRPG\\gameRPG.csproj",
+        "projectUniqueName": "C:\\Users\\dinoy\\Documents\\GitHub\\ChickenRPG\\gameRPG\\gameRPG\\gameRPG.csproj",
         "projectName": "gameRPG",
-        "projectPath": "D:\\Development\\gameRPG\\gameRPG\\gameRPG.csproj",
-        "packagesPath": "C:\\Users\\yordanovd\\.nuget\\packages\\",
-        "outputPath": "D:\\Development\\gameRPG\\gameRPG\\obj\\",
+        "projectPath": "C:\\Users\\dinoy\\Documents\\GitHub\\ChickenRPG\\gameRPG\\gameRPG\\gameRPG.csproj",
+        "packagesPath": "C:\\Users\\dinoy\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\dinoy\\Documents\\GitHub\\ChickenRPG\\gameRPG\\gameRPG\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\yordanovd\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\dinoy\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
@@ -29,7 +27,7 @@
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "C:\\Program Files\\dotnet\\library-packs": {},
-          "https://www.nuget.org/api/v2/": {}
+          "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
@@ -41,6 +39,11 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -59,13 +62,13 @@
             "Microsoft.NET.ILLink.Tasks": {
               "suppressParent": "All",
               "target": "Package",
-              "version": "[8.0.1, )",
+              "version": "[8.0.6, )",
               "autoReferenced": true
             },
             "Microsoft.NET.Sdk.WebAssembly.Pack": {
               "suppressParent": "All",
               "target": "Package",
-              "version": "[8.0.1, )",
+              "version": "[8.0.5, )",
               "autoReferenced": true
             }
           },
@@ -83,7 +86,7 @@
           "downloadDependencies": [
             {
               "name": "Microsoft.NETCore.App.Runtime.Mono.browser-wasm",
-              "version": "[8.0.1, 8.0.1]"
+              "version": "[8.0.5, 8.0.5]"
             }
           ],
           "frameworkReferences": {
@@ -91,7 +94,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.302/PortableRuntimeIdentifierGraph.json"
         }
       },
       "runtimes": {

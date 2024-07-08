@@ -1,0 +1,241 @@
+﻿@using gameRPG.Models
+@using gameRPG.Services
+@using gameRPG.Components
+@inject gameRPG.Services.PlayerService PlayerService
+@inject gameRPG.Services.WeaponService WeaponService
+
+
+<div class="fullPageBlur" style="display: @(IsVisible ? "block" : "none");">
+
+</div>
+
+<div class="battlescene" style="display: @(IsVisible ? "block" : "none");">
+    <div>
+        <div class="chickenInfo">
+            <TooltipComponent Tip="Name">
+                [ <span class="chickenName">@PlayerService.Player.Name</span> ]
+            </TooltipComponent>
+            -
+            <TooltipComponent Tip="@ProgressPercentage">
+                <span>Lv. @PlayerService.Player.Level</span>
+            </TooltipComponent>
+        </div>
+        <div class="chickenExp">
+            <ExperienceBarComponent></ExperienceBarComponent>
+        </div>
+
+        <div class="chickenHp">
+            <TooltipComponent Tip="Health Points">
+<span>@PlayerService.Player.CurrentHealthPoints / @PlayerService.Player.MaxHealthPoints</span>
+</TooltipComponent>
+</div>
+        <div class="chickenMana">
+                        <TooltipComponent Tip="Mana">
+<span>@PlayerService.Player.CurrentMana / @PlayerService.Player.MaxMana</span>
+            </TooltipComponent>
+</div>
+        <div class="chickenModel"></div>
+        <div class="changeWeaponButton"></div>
+        <div class="specialButton"></div>
+        <div class="attackButton"></div>
+    </div>
+</div>
+
+<div style="display: @(IsVisible ? "block" : "none");        right: 15%;" class="runSignButton" @onclick="CloseBattle"></div>
+@code {
+    [Parameter] public bool IsVisible { get; set; }
+    [Parameter] public EventCallback OnClose { get; set; }
+    [Parameter] public string Area { get; set; }
+    [Parameter] public string[] Mobs { get; set; }
+    [Parameter] public string RareMob { get; set; }
+    [Parameter] public int[] LevelRange { get; set; }
+
+    private string ProgressPercentage => ((double)PlayerService.Player.CurrentExperience / PlayerService.Player.ExperienceNeededToLevelUp * 100).ToString() + "% for Level " + (PlayerService.Player.Level+1);
+
+    private void CloseBattle()
+    {
+        OnClose.InvokeAsync();
+    }
+}
+
+<style>
+
+    .chickenInfo {
+        width: 25%;
+        height: 35px;
+        position: absolute;
+        z-index: 50;
+        bottom: 53%;
+        left: 6%;
+        padding: 5px;
+        font-family: 'Minecraft', sans-serif;
+        color: white;
+        text-shadow: 0px 0px 3px #000000;
+        text-align: center;
+    }
+
+    .chickenWeaponModel {
+
+        z-index: 50;
+        position: absolute;
+        bottom: 7%;
+        left: 10%;
+    }
+    .chickenExp {
+        width: 25%;
+        height: 35px;
+        position: absolute;
+        z-index: 50;
+        bottom: 47%;
+        left: 6%;
+        padding: 5px;
+    }
+        .chickenName {
+            background-color: #000000AA;
+
+            padding: 5px;
+        }
+
+    .chickenHp {
+        background-image: url('heartIcon.png');
+        width: 100px;
+        height: 25px;
+        background-size: 25px;
+        background-repeat: no-repeat;
+        position: absolute;
+        z-index: 50;
+        bottom: 44%;
+        left: 6%;
+    }
+
+    .chickenHp span {
+            font-family: 'Minecraft', sans-serif;
+    color: white;
+            text-shadow: 0px 0px 3px #000000;
+    padding-left: 30px;}
+    .chickenMana {
+        background-image: url('manaIcon.png');
+        width: 100px;
+        height: 25px;
+        background-size: 25px;
+        background-repeat: no-repeat;
+        position: absolute;
+        z-index: 50;
+        bottom: 44%;
+        left: 20%;
+    }
+
+    .chickenMana span {
+        font-family: 'Minecraft', sans-serif;
+        color: white;
+        padding-left: 30px;
+            text-shadow: 0px 0px 3px #000000;
+    }
+    .attackButton {
+        width: 250px;
+        height: 50px;
+        background-size: 250px;
+        position: absolute;
+        background-image: url('attackMenuButton.png');
+        z-index: 50;
+        bottom: 29%;
+        left: 23%;
+        cursor: pointer;
+    }
+
+    .attackButton:hover {
+            background-image: url('attackMenuButtonHover.png');
+        }
+    .specialButton {
+        width: 250px;
+        height: 50px;
+        background-size: 250px;
+        position: absolute;
+        background-image: url('specialMenuButton.png');
+        z-index: 50;
+        bottom: 17%;
+        left: 25%;
+        cursor: pointer;
+    }
+    .specialButton:hover {
+        background-image: url('specialMenuButtonHover.png');
+    }
+    .changeWeaponButton {
+        width: 250px;
+        height: 50px;
+        background-size: 250px;
+        position: absolute;
+        background-image: url('ChangeWeaponMenuButton.png');
+        z-index: 50;
+        bottom: 5%;
+        left: 23%;
+        cursor: pointer;
+    }
+
+    .changeWeaponButton:hover {
+        background-image: url('changeWeaponMenuButtonHover.png');
+    }
+    .chickenModel {
+        background-image: url('chickenModel.png');
+        height: 144px;
+        width: 110px;
+        background-size: 110px;
+        z-index: 50;
+        position: absolute;
+        bottom: 7%;
+        left: 10%;
+    }
+    .fullPageBlur {
+        position: fixed;
+        top: 0;
+        right: 0;
+        bottom: 0;
+background-color: #000000A0;
+min-width: 100%;
+        min-height: 100%;
+        z-index: 1;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -ms-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+    }
+    .battlescene {
+        height: 65%;
+        width: 75%;
+        position: absolute;
+        top: 5%;
+        left: 12%;
+        margin: 0 auto;
+        background-image: url('ForestArea.png'); z-index: 20;
+        background-repeat: cover;
+        border: 1px solid white;
+        box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px, rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px, rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
+    }
+
+        .battlescene:after {
+            content: "";
+            display: block;
+            background-image: url('SignHolder.png');
+            height: 20px;
+            width: 100%;
+            background-size: 250px;
+            background-position: center bottom;
+            position: absolute; /* Position the pseudo-element absolutely */
+            bottom: -20px;
+            border-top: 1px solid white;
+            box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em, rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em, rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;
+        }
+
+        .runSignButton {
+        position: absolute;
+        background-image: url('RunSign.png');
+        height: 200px;
+        width: 200px;
+        background-size: 200px;
+        bottom: 10%;
+        z-index: 15;
+        padding-top: 20px;
+        cursor: pointer;
+        }
+</style>

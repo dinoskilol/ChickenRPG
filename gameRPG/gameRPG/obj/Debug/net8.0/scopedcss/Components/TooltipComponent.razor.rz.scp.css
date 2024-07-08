@@ -1,0 +1,33 @@
+.tooltip-container[b-dk8jbzaqwj] {
+    position: relative;
+    display: inline-block;
+    z-index: 55;
+}
+
+.tooltip-content[b-dk8jbzaqwj] {
+    cursor: pointer;
+    z-index: 55;
+}
+
+.tooltip-text[b-dk8jbzaqwj] {
+    visibility: hidden;
+    position: absolute;
+    background-color: #000000AA;
+    border: 2px solid lightgray;
+    color: #fff;
+    text-align: center;
+    padding: 5px;
+    border-radius: 4px;
+    z-index: 55;
+    bottom: 125%;
+    left: 50%;
+    margin-left: -60px;
+    opacity: 0;
+    font-family: 'Minecraft', sans-serif;
+    font-size: 12px;
+}
+
+.tooltip-container:hover .tooltip-text[b-dk8jbzaqwj] {
+    visibility: visible;
+    opacity: 1;
+}

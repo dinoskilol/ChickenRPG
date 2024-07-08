@@ -1,5 +1,8 @@
+using gameRPG.Services;
 using Microsoft.AspNetCore.Components.Web;
 using Microsoft.AspNetCore.Components.WebAssembly.Hosting;
+using Microsoft.Extensions.DependencyInjection;
+using gameRPG.Models;
 
 namespace gameRPG
 {
@@ -12,8 +15,11 @@ namespace gameRPG
             builder.RootComponents.Add<HeadOutlet>("head::after");
 
             builder.Services.AddScoped(sp => new HttpClient { BaseAddress = new Uri(builder.HostEnvironment.BaseAddress) });
+            builder.Services.AddSingleton<PlayerService>();  // Register PlayerService
+            builder.Services.AddScoped<WeaponService>();
 
             await builder.Build().RunAsync();
+
         }
     }
 }

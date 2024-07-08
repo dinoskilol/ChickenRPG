@@ -1,0 +1,91 @@
+﻿@using gameRPG.Models
+@using gameRPG.Services
+@inject gameRPG.Services.PlayerService PlayerService
+<div class="nameChangePage" style="display: @(IsVisible ? "block" : "none");">
+    <div class="nameChangePageBG">Insert the name you want to change to.
+        <input class="nameChangeInput" @bind="@nameChange" @oninput="@((e) => {nameChange=(string)e.Value;})"  type="text" id="name" name="name" required minlength="4" maxlength="12" size="10" placeholder="@PlayerService.Player.Name" />
+    @errorMessage<br />
+        <button style="position: absolute; right: 5%; bottom: 10%;" @onclick="ClosePage">Change</button>
+        <button style="position: absolute; top: 0; right: 0;" @onclick="ClosePage2">X</button>
+
+    </div>
+</div>
+
+<div class="fullPageBlur2" style="display: @(IsVisible ? "block" : "none");">
+</div>
+
+
+<style>
+    .fullPageBlur2 {
+        position: fixed;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        background-color: #000000A0;
+        min-width: 100%;
+        min-height: 100%;
+        z-index: 1;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -ms-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+    }
+
+    .nameChangePage {
+        position: absolute;
+ z-index: 2;
+        top: 35%;
+        left: 15%;
+    }
+
+    .nameChangePageBG {
+        background-image: url('ChangeNamePage.png');
+        background-size: 430px;
+        height: 200px;
+        width: 430px;
+        padding: 19px;
+        padding-top: 40px;
+        color: black;
+        text-shadow: none;
+    }
+
+    .nameChangeInput {
+        background-color: black;
+        width: 100%;
+        margin-top: 15px;
+        margin-bottom: 10px;
+        color: white;
+    }
+</style>
+
+@code {
+    [Parameter] public bool IsVisible { get; set; }
+    [Parameter] public EventCallback OnClose { get; set; }
+
+    private string nameChange;
+    private string errorMessage = "";
+
+
+    private void ClosePage()
+    {
+        if (nameChange != null)
+        {
+            PlayerService.Player.Name = nameChange;
+            errorMessage = "";
+            nameChange = null;
+            OnClose.InvokeAsync();
+        }
+        else
+        {
+            errorMessage = "Your name cannot be empty.";
+        }
+    }
+
+    private void ClosePage2()
+    {
+            errorMessage = "";
+            nameChange = null;
+            OnClose.InvokeAsync();
+    }
+}

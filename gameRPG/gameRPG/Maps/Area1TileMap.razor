@@ -1,51 +1,62 @@
 ﻿@using gameRPG.Logic
 @using gameRPG.Components
 
-<div tabindex="0" @onkeydown="HandleKeyPress" style="outline: none;">
-    @for (int y = 0; y < _tileMapLogic.Rows; y++)
-    {
-        <div style="display: flex;">
-            @for (int x = 0; x < _tileMapLogic.Columns; x++)
-            {
-                if (x == 3 && y == 3) // Check if this is the tile at position (3, 3)
-                {
-                    <div style="width: 64px; height: 64px; border: 1px solid black; background-color: red;">
-                    </div>
-                }
-                else if (_tileMapLogic.DotPosition == (x, y))
-                {
 
-                    <div style="width: 64px; height: 64px; border: 1px solid black; background-image: url('https://i.imgur.com/CjBZlgq.png'); background-size: 66px; background-repeat: no-repeat;">
-                        <div style="width: 63px; height: 63px; background-image: url('https://minecraft.wiki/images/thumb/Chicken_JE2_BE2.png/150px-Chicken_JE2_BE2.png'); background-size: 66px; background-repeat: no-repeat;">
+<div style="height: 670px; width: 670px; background-size: 670px; background-image: url('mapBackground.png');   display: flex;
+  align-items: center;
+  justify-content: center; ">
+    <div @ref="tilemapFocus" tabindex="0" @onkeydown="HandleKeyPress" style="outline: none;   width: auto; height: auto;">
+        @for (int y = 0; y < _tileMapLogic.Rows; y++)
+        {
+            <div style="display: flex;">
+                @for (int x = 0; x < _tileMapLogic.Columns; x++)
+                {
+                    if (x == 3 && y == 3) // Impassable Tilemapping
+                    {
+                        <div style="width: 64px; height: 64px; border: 1px solid black; background-color: red;">
                         </div>
-                    </div>
-                }
-                else
-                {
-                    <div style="width: 64px; height: 64px; border: 1px solid black; background-image: url('https://i.imgur.com/CjBZlgq.png'); background-size: 66px; background-repeat: no-repeat;">
-                    </div>
-                }
+                    }
+                    else if (_tileMapLogic.DotPosition == (x, y)) // Chicken Tilemap
+                    {
 
-            }
-        </div>
-    }
-    <div><LocationComponent></LocationComponent></div>
+                        <div style="width: 64px; height: 64px; border: 1px solid black; background-image: url('https://i.imgur.com/CjBZlgq.png'); background-size: 66px; background-repeat: no-repeat;">
+                            <div style="width: 64px; height: 64px; background-image: url('@chickenModelDirection'); background-size: 66px; background-repeat: no-repeat;">
+                            </div>
+                        </div>
+                    }
+                    else  // Traversable Tilemapping
+                    {
+                        <div style="width: 64px; height: 64px; border: 1px solid black; background-image: url('https://i.imgur.com/CjBZlgq.png'); background-size: 66px; background-repeat: no-repeat;">
+                        </div>
+                    }
 
+                }
+            </div>
+        }
+    </div>
 </div>
+<div><LocationComponent></LocationComponent></div>
+
+<BattleScene IsVisible="showBattle" OnClose="HideBattle"></BattleScene>
 
 @code {
+    public ElementReference tilemapFocus { get; set; }
+    public bool interactableTileMap = true;
+    private bool showBattle = false;
+    private string chickenModelDirection = "chickenDownModel.png";
+
     private TileMapLogic _tileMapLogic = new TileMapLogic(9, 9); // 9x9 grid
 
     protected override void OnInitialized()
     {
-        // Example: Making a tile impassable
+        // Impassable tiles
         _tileMapLogic.SetTile(3, 3, new Tile(false));
 
         // Example: Making a tile trigger an event
         _tileMapLogic.SetTile(4, 4, new Tile(true, () =>
         {
-            // Trigger an event (for example, show a message)
-            Console.WriteLine("Event triggered!");
+            interactableTileMap = false;
+            ShowBattle();
         }));
     }
 
@@ -54,30 +65,51 @@
         _tileMapLogic.MoveCharacter(direction);
     }
 
+    private void ShowBattle()
+    {
+        showBattle = true;
+        StateHasChanged();
+    }
+
+    private void HideBattle()
+    {
+        showBattle = false;
+        interactableTileMap = true;
+        StateHasChanged();
+        tilemapFocus.FocusAsync();
+    }
+
     private void HandleKeyPress(KeyboardEventArgs e)
     {
-        switch (e.Key)
+        if (interactableTileMap)
         {
-            case "ArrowUp":
-            case "W":
-            case "w":
-                MoveCharacter("up");
-                break;
-            case "ArrowDown":
-            case "S":
-            case "s":
-                MoveCharacter("down");
-                break;
-            case "ArrowLeft":
-            case "A":
-            case "a":
-                MoveCharacter("left");
-                break;
-            case "ArrowRight":
-            case "D":
-            case "d":
-                MoveCharacter("right");
-                break;
+            switch (e.Key)
+            {
+                case "ArrowUp":
+                case "W":
+                case "w":
+                    chickenModelDirection = "chickenUpModel.png";
+                    MoveCharacter("up");
+                    break;
+                case "ArrowDown":
+                case "S":
+                case "s":
+                    chickenModelDirection = "chickenDownModel.png";
+                    MoveCharacter("down");
+                    break;
+                case "ArrowLeft":
+                case "A":
+                case "a":
+                    chickenModelDirection = "chickenLeftModel.png";
+                    MoveCharacter("left");
+                    break;
+                case "ArrowRight":
+                case "D":
+                case "d":
+                    chickenModelDirection = "chickenRightModel.png";
+                    MoveCharacter("right");
+                    break;
+            }
         }
     }
 }

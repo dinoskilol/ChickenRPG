@@ -13,47 +13,71 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = browser
 build_property.RootNamespace = gameRPG
 build_property.RootNamespace = gameRPG
-build_property.ProjectDir = D:\Development\gameRPG\gameRPG\
+build_property.ProjectDir = C:\Users\dinoy\Documents\GitHub\ChickenRPG\gameRPG\gameRPG\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = false
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = D:\Development\gameRPG\gameRPG
+build_property.MSBuildProjectDirectory = C:\Users\dinoy\Documents\GitHub\ChickenRPG\gameRPG\gameRPG
 build_property._RazorSourceGeneratorDebug = 
 
-[D:/Development/gameRPG/gameRPG/App.razor]
+[C:/Users/dinoy/Documents/GitHub/ChickenRPG/gameRPG/gameRPG/App.razor]
 build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Development/gameRPG/gameRPG/Components/ChickenStatsComponent.razor]
+[C:/Users/dinoy/Documents/GitHub/ChickenRPG/gameRPG/gameRPG/Components/ChangeNameComponent.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xDaGFuZ2VOYW1lQ29tcG9uZW50LnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/dinoy/Documents/GitHub/ChickenRPG/gameRPG/gameRPG/Components/ChickenStatsComponent.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xDaGlja2VuU3RhdHNDb21wb25lbnQucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Development/gameRPG/gameRPG/Components/LocationComponent.razor]
+[C:/Users/dinoy/Documents/GitHub/ChickenRPG/gameRPG/gameRPG/Components/ExperienceBarComponent.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xFeHBlcmllbmNlQmFyQ29tcG9uZW50LnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/dinoy/Documents/GitHub/ChickenRPG/gameRPG/gameRPG/Components/InventoryComponent.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xJbnZlbnRvcnlDb21wb25lbnQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/dinoy/Documents/GitHub/ChickenRPG/gameRPG/gameRPG/Components/LocationComponent.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xMb2NhdGlvbkNvbXBvbmVudC5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Development/gameRPG/gameRPG/Layout/NoLayout.razor]
+[C:/Users/dinoy/Documents/GitHub/ChickenRPG/gameRPG/gameRPG/Components/SwordShowcaseComponent.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xTd29yZFNob3djYXNlQ29tcG9uZW50LnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/dinoy/Documents/GitHub/ChickenRPG/gameRPG/gameRPG/Layout/NoLayout.razor]
 build_metadata.AdditionalFiles.TargetPath = TGF5b3V0XE5vTGF5b3V0LnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Development/gameRPG/gameRPG/Maps/Area1TileMap.razor]
+[C:/Users/dinoy/Documents/GitHub/ChickenRPG/gameRPG/gameRPG/Maps/Area1TileMap.razor]
 build_metadata.AdditionalFiles.TargetPath = TWFwc1xBcmVhMVRpbGVNYXAucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Development/gameRPG/gameRPG/Pages/HomePage.razor]
+[C:/Users/dinoy/Documents/GitHub/ChickenRPG/gameRPG/gameRPG/Maps/BattleScene.razor]
+build_metadata.AdditionalFiles.TargetPath = TWFwc1xCYXR0bGVTY2VuZS5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/dinoy/Documents/GitHub/ChickenRPG/gameRPG/gameRPG/Pages/HomePage.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSG9tZVBhZ2UucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Development/gameRPG/gameRPG/_Imports.razor]
+[C:/Users/dinoy/Documents/GitHub/ChickenRPG/gameRPG/gameRPG/_Imports.razor]
 build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Development/gameRPG/gameRPG/Layout/MainLayout.razor]
+[C:/Users/dinoy/Documents/GitHub/ChickenRPG/gameRPG/gameRPG/Components/TooltipComponent.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xUb29sdGlwQ29tcG9uZW50LnJhem9y
+build_metadata.AdditionalFiles.CssScope = b-dk8jbzaqwj
+
+[C:/Users/dinoy/Documents/GitHub/ChickenRPG/gameRPG/gameRPG/Layout/MainLayout.razor]
 build_metadata.AdditionalFiles.TargetPath = TGF5b3V0XE1haW5MYXlvdXQucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = b-h373doik8q
 
-[D:/Development/gameRPG/gameRPG/Layout/NavMenu.razor]
+[C:/Users/dinoy/Documents/GitHub/ChickenRPG/gameRPG/gameRPG/Layout/NavMenu.razor]
 build_metadata.AdditionalFiles.TargetPath = TGF5b3V0XE5hdk1lbnUucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = b-tm0tcnc15t
